@@ -139,9 +139,9 @@
 
 			});
 
-//////////////testing some shit///////////////////////////////////
 
-		
+	//Modals
+
 		// Get the modal
 		var modal = document.getElementById("myModal");
 
@@ -167,9 +167,6 @@
 		    modal.style.display = "none";
 		  }
 		}
-
-
-//////////////done testing some shit///////////////////////////////////
 
 
 	// Main sections.

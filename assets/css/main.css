@@ -2352,14 +2352,17 @@ input, select, textarea {
 				display: inline;
 				/* float: left; */
 				padding: 1.5em;
-				width: 95%;
-				transition: .4s opacity;
+				width: 98%;
+				transition: padding .4s, opacity .4s, border .4s, border-radius .4s;
 			}
 
 			ul.icons-grid li img:hover {
 				/* visibility: hidden;
 				display: none; */
-				opacity: 0.3;
+				opacity: 0.5;
+				border: 3px solid #8CD1A8;
+				border-radius: .5em;
+				padding: 1em;
 			}
 
 			/* ul.icons-grid li div {
