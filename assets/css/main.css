@@ -2353,12 +2353,14 @@ input, select, textarea {
 				/* float: left; */
 				padding: 1.5em;
 				width: 95%;
+				transition: .4s opacity;
 			}
 
-			/* ul.icons-grid li img:hover {
-				visibility: hidden;
-				display: none;
-			} */
+			ul.icons-grid li img:hover {
+				/* visibility: hidden;
+				display: none; */
+				opacity: 0.3;
+			}
 
 			/* ul.icons-grid li div {
 				margin-top: -273px;
